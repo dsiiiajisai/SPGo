@@ -17,7 +17,7 @@
 <meta name="twitter:card" content="summary">
 <link rel="icon" type="image/png" href="https://i.postimg.cc/ryZgWswz/Go5_favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Noto+Serif+TC:wght@300;400&family=Ma+Shan+Zheng&family=IM+Fell+English:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Beau+Rivage&family=Klee+One&family=Corinthia&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Noto+Serif+TC:wght@300;400&family=Ma+Shan+Zheng&family=IM+Fell+English:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Beau+Rivage&family=Klee+One&family=Corinthia&family=Aleo:wght@300;400;700&display=swap" rel="stylesheet">
 <!-- Leaflet for map -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -1437,10 +1437,8 @@ html, body {
   <div class="site-label">SUPER PORTAL</div>
   <div class="logo-wrap">
     <img src="https://i.postimg.cc/fRdF8YCj/Hibiscus_orange_5.png" alt="Go">
-    <div class="logo-title" style="display:flex; flex-direction:column; align-items:center; line-height:1.3;">
-      <span>五</span>
-      <span>Go</span>
-    </div>
+    <div style="font-family:'Aleo',serif; font-size:22px; font-weight:400; color:var(--sky); text-align:center; letter-spacing:0.08em; line-height:1.2;">SUPER PORTAL</div>
+    <div style="font-family:'Cinzel',serif; font-size:18px; font-weight:400; color:#e0b0ff; text-align:center; letter-spacing:0.25em; line-height:1.5;">五 GO</div>
   </div>
 
   <div class="cards" style="margin-top: 24px;">
@@ -1487,10 +1485,8 @@ html, body {
   <div class="site-label">SUPER PORTAL</div>
   <div class="logo-wrap" style="cursor:pointer; margin-top:8px;" onclick="goTo('screen-B0-login')">
     <img src="https://i.postimg.cc/fRdF8YCj/Hibiscus_orange_5.png" alt="Go">
-    <div class="logo-title" style="display:flex; flex-direction:column; align-items:center; line-height:1.3;">
-      <span>五</span>
-      <span>Go</span>
-    </div>
+    <div style="font-family:'Aleo',serif; font-size:22px; font-weight:400; color:var(--sky); text-align:center; letter-spacing:0.08em; line-height:1.2;">SUPER PORTAL</div>
+    <div style="font-family:'Cinzel',serif; font-size:18px; font-weight:400; color:#e0b0ff; text-align:center; letter-spacing:0.25em; line-height:1.5;">五 GO</div>
     <div class="logo-sub" id="home-greeting" style="margin-bottom:32px;">Welcome to Go, your super portal</div>
   </div>
 
@@ -1499,8 +1495,9 @@ html, body {
     <div class="card" onclick="goTo('screen-B1-1')">
       <div class="card-icon"><img src="https://i.postimg.cc/15ky2Vyf/ajisai-DS.png" alt="DS"></div>
       <div class="card-text">
-        <div class="card-title">📅 擇日 Date Selection</div>
-        <div class="card-desc">DS (iii) Ajisai</div>
+        <div class="card-title" style="font-family:'Aleo',serif; font-weight:400; color:white;">📅 擇日 Date Selection</div>
+        <div style="font-family:'Cinzel',serif; font-size:13px; color:#e0b0ff; letter-spacing:0.05em; margin-top:1px;">Ajisai</div>
+        <div class="card-desc">Date Selection Tools &amp; Sites</div>
       </div>
       <div class="card-arrow">›</div>
     </div>
@@ -1509,8 +1506,8 @@ html, body {
     <div class="card" onclick="goTo('screen-B1-2')">
       <div class="card-icon" style="display:flex;flex-direction:column;align-items:center;gap:4px;"><img src="https://i.postimg.cc/SRYGBpwy/QMDJ-i-Botan.png" alt="QMDJ" style="width:36px;height:36px;object-fit:contain;"><img src="https://i.postimg.cc/kgmb9JGx/tsutsuji_1_no_leave_2.png" alt="Tsutsuji" style="width:28px;height:28px;object-fit:contain;"></div>
       <div class="card-text">
-        <div class="card-title">☯️ 奇門遁甲 QMDJ<br>🔮 Divination</div>
-        <div class="card-desc">QMDJ (i) Botan, Divination (i) Tsutsuji, etc.</div>
+        <div class="card-title" style="font-family:'Aleo',serif; font-weight:400; color:white;">☯️ QMDJ &amp; 🔮 Divination</div>
+        <div class="card-desc">QMDJ sites, Divination Tools 🛠️, Divination sites</div>
       </div>
       <div class="card-arrow">›</div>
     </div>
@@ -1519,8 +1516,8 @@ html, body {
     <div class="card" id="card-b3" onclick="goTo('screen-B1-3')">
       <div class="card-icon"><img src="https://i.postimg.cc/TwN0qW23/Rose-Thao-Dien-Mam-03-26.png" alt="Life" style="width:42px;height:42px;object-fit:contain;"></div>
       <div class="card-text">
-        <div class="card-title">🎭 八字, ज्योतिष Individual Life Study</div>
-        <div class="card-desc">Bazi, Vedic Astrology</div>
+        <div class="card-title" style="font-family:'Aleo',serif; font-weight:400; color:white;">🎭 Individual Life Study</div>
+        <div class="card-desc">Bazi &amp; Vedic sites &amp; Tools 🛠️</div>
       </div>
       <div class="card-arrow">›</div>
     </div>
@@ -1529,8 +1526,9 @@ html, body {
     <div class="card" id="card-b4" onclick="goTo('screen-B1-4')">
       <div class="card-icon" style="display:flex;flex-direction:column;align-items:center;gap:4px;"><img src="https://i.postimg.cc/13SDRFLD/FS-i-Manju.png" alt="FS" style="width:36px;height:36px;object-fit:contain;"><img src="https://i.postimg.cc/VsSqKmq5/FS_ii_Shage.png" alt="Shage" style="width:28px;height:28px;object-fit:contain;"></div>
       <div class="card-text">
-        <div class="card-title">🏡 風水 Fengshui</div>
-        <div class="card-desc">FS (i) Manju, FS (ii) Shage</div>
+        <div class="card-title" style="font-family:'Aleo',serif; font-weight:400; color:white;">🏡 Fengshui Portal</div>
+        <div style="font-family:'Cinzel',serif; font-size:13px; color:#e0b0ff; letter-spacing:0.05em; margin-top:1px;">Manjushage</div>
+        <div class="card-desc">Fengshui Sites &amp; Tools 🛠️</div>
       </div>
       <div class="card-arrow">›</div>
     </div>
@@ -1539,8 +1537,8 @@ html, body {
     <div class="card grayed">
       <div class="card-icon"><img src="https://i.postimg.cc/g0MQdmBz/Yijing_I_tenjiku.png" alt="Yijing"></div>
       <div class="card-text">
-        <div class="card-title">易經 Yijing <span class="coming-soon-tag">Soon</span></div>
-        <div class="card-desc">Yijing (i) Tenjiku</div>
+        <div class="card-title" style="font-family:'Aleo',serif; font-weight:400; color:white;">☯ Yijing <span class="coming-soon-tag">Soon</span></div>
+        <div style="font-family:'Cinzel',serif; font-size:13px; color:#e0b0ff; letter-spacing:0.05em; margin-top:1px;">Tenjiku</div>
       </div>
       <div class="card-arrow">›</div>
     </div>
@@ -1551,7 +1549,8 @@ html, body {
     <div class="card" id="card-b6" onclick="openPersonalPortal()">
       <div class="card-icon"><img src="https://i.postimg.cc/ZnmgZHzM/FS-vi-Kuchinashi-2.png" alt="Kuchinashi"></div>
       <div class="card-text">
-        <div class="card-title">Your Personal Kuchinashi Portal</div>
+        <div class="card-title" style="font-family:'Aleo',serif; font-weight:400; color:white;">👤 Your Personal Portal</div>
+        <div style="font-family:'Cinzel',serif; font-size:13px; color:#e0b0ff; letter-spacing:0.05em; margin-top:1px;">Kuchinashi</div>
         <div class="card-desc-2 card-desc2" id="portal-link-text">🌐 Portal site ↗</div>
       </div>
       <div class="card-arrow">›</div>
@@ -1725,13 +1724,12 @@ html, body {
     <span class="inner-title">五 Go Main Menu</span>
   </div>
 
-  <!-- QMDJ (i) Botan section -->
-  <div class="logo-wrap" style="margin-bottom: 12px;">
-    <div style="display:flex;align-items:center;gap:12px;">
+  <div class="logo-wrap" style="margin-bottom:16px;">
+    <div style="display:flex;align-items:center;gap:16px; margin-bottom:8px;">
       <img src="https://i.postimg.cc/SRYGBpwy/QMDJ-i-Botan.png" alt="Botan" style="width:60px;height:60px; filter:drop-shadow(0 0 14px rgba(0,191,255,0.4));">
       <img src="https://i.postimg.cc/kgmb9JGx/tsutsuji_1_no_leave_2.png" alt="Tsutsuji" style="width:52px;height:52px;object-fit:contain; filter:drop-shadow(0 0 10px rgba(255,100,150,0.5));">
     </div>
-    <div class="logo-title" style="font-size:16px;">☯️ QMDJ & 🔮 Divination</div>
+    <div style="font-family:'Aleo',serif; font-size:18px; font-weight:400; color:white; text-align:center;">☯️ QMDJ &amp; 🔮 Divination</div>
   </div>
 
   <div class="cards">
@@ -2194,7 +2192,7 @@ html, body {
 <!-- ============================================================
      SCREEN B2-3-1-splash: Bazi Portal full-screen overlay
      ============================================================ -->
-<div id="screen-B2-3-1-splash" class="screen" style="padding:0; position:relative; overflow:hidden;" onclick="goTo('screen-B2-3-1-splash')">
+<div id="screen-B2-3-1-splash" class="screen" style="padding:0; position:relative; overflow:hidden;" onclick="goTo('screen-B2-3-1')">
   <div style="position:absolute; inset:0; background-image:url('https://i.postimg.cc/0jWNNPCf/Rose-Leaning-Medium.jpg'); background-size:cover; background-position:center; z-index:0;"></div>
   <div style="position:absolute; inset:0; background:rgba(0,0,80,0.45); z-index:1;"></div>
   <div style="position:relative; z-index:2; display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:100dvh; padding:40px 20px; text-align:center;">
